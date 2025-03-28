@@ -1,26 +1,65 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+
+    @media (min-width: 38em) {
+        font-size: 16px;
+    }
+}
+
 body {
     background-color: #222;
     color: #eee;
-    word-break: break-all;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
+
 .container {
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5%;
 }
+
 header {
     margin: 20px 0;
 }
+
 h1 {
-    font-size: 130px;
+    font-size: 100px;
     text-align: center;
     margin: 0;
+    letter-spacing: -.25rem;
+
+    @media (max-width: 25em) {
+        font-size: 50px;
+    }
+    @media (min-width: 25em) {
+        font-size: 70px;
+    }
+
+    @media (min-width: 82em) {
+        font-size: 130px;
+    }
 }
+
 nav {
     display: block;
     text-align: center;
     margin-top: 10px;
 }
+
 nav a {
     color: #eee;
     text-decoration: underline;
@@ -29,17 +68,13 @@ nav a {
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
 nav a:last-of-type {
     margin: 0;
 }
+
 .rubik-80s-fade-regular {
     font-family: "Rubik 80s Fade", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.libre-barcode-128-text-regular {
-    font-family: "Libre Barcode 128 Text", system-ui;
     font-weight: 400;
     font-style: normal;
 }
