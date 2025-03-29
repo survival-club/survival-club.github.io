@@ -39,6 +39,7 @@ h1 {
     @media (max-width: 48em) {
         font-size: 4rem;
     }
+
     @media (min-width: 48em) {
         font-size: 5rem;
     }
