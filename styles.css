@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 body {
@@ -32,15 +32,11 @@ header {
 }
 
 h1 {
-    
     text-align: center;
     margin: 0;
     letter-spacing: -.25rem;
 
-    @media (max-width: 28em) {
-        font-size: 3rem;
-    }
-    @media (min-width: 28em) {
+    @media (max-width: 48em) {
         font-size: 4rem;
     }
     @media (min-width: 48em) {
