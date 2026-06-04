@@ -83,6 +83,13 @@ nav a:last-of-type {
     margin: 0;
 }
 
+.band-pic {
+@media (min-width: 50em) {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
 .band {
     border-radius: 0.5em;
     display: block;
